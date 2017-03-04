@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="462dp"
+        app:srcCompat="@drawable/core"
+        android:id="@+id/imageView" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/showmoney">
+
+        <TextView
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="114dp"
+            android:id="@+id/payEach" />
+
+        <TextView
+            android:text="payEach :"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/PAYHINT"
+            android:layout_alignBaseline="@+id/payEach"
+            android:layout_alignBottom="@+id/payEach"
+            android:layout_toStartOf="@+id/payEach"
+            android:layout_marginEnd="91dp" />
+    </RelativeLayout>
+
+</LinearLayout>
